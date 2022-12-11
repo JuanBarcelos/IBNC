@@ -1,0 +1,147 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  width: 1200px;
+}
+
+/***** capa header *******/
+.capa {
+  height: 430px;
+
+  background-image: url('../img/capa.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capa h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  color: #151861;
+}
+
+/****** pastores ****/
+.pastores .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 100px;
+}
+.pastores .title h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #151861;
+}
+
+.pastores .title .line {
+  margin-top: 15px;
+
+  width: 150px;
+  height: 3px;
+  background: #c4c4c4;
+  border: 3px solid #151861;
+}
+
+.pastores .title p {
+  margin-top: 60px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 78px;
+}
+
+.card {
+  width: 585px;
+  height: 813px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.card .control {
+  position: relative;
+  width: 100%;
+}
+.card .topo {
+  height: 100px;
+  background: #151861;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card .img-perfil {
+  position: absolute;
+  left: 193px;
+  top: 45px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.card h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin-top: 175px;
+}
+.card p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+width: 500px;
+  margin-top: 30px;
+}
+
+.card .midia-links {
+  width: 290px;
+  height: 52px;
+}
+
+.card .midia-links img,
+.card .midia-links .cicle {
+  width: 50px;
+  height: 50px;
+}

@@ -66,8 +66,11 @@ section .card img {
   letter-spacing: -0.015em;
   color: #000000;
 }
-
-.card .about button {
+.card .about a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 86px;
 
   border: none;
@@ -86,6 +89,6 @@ section .card img {
   cursor: pointer;
 }
 
-.card .about button:hover{
+.card .about a:hover{
    background: #151761a3;
 }

@@ -1,10 +1,52 @@
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 section {
   width: 1200px;
+}
+
+/********** title ***********/
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 100px;
+}
+.title h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #151861;
+}
+
+.line {
+  margin-top: 15px;
+
+  width: 150px;
+  height: 3px;
+  background: #c4c4c4;
+  border: 3px solid #151861;
+}
+
+.title p {
+  margin-top: 60px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /***** capa header *******/
@@ -32,47 +74,8 @@ section {
 }
 
 /****** pastores ****/
-.pastores .title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
-  margin-top: 100px;
-}
-.pastores .title h2 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: -0.015em;
-  color: #151861;
-}
-
-.pastores .title .line {
-  margin-top: 15px;
-
-  width: 150px;
-  height: 3px;
-  background: #c4c4c4;
-  border: 3px solid #151861;
-}
-
-.pastores .title p {
-  margin-top: 60px;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: center;
-  letter-spacing: -0.015em;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-.cards{
+.cards {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -97,6 +100,7 @@ section {
   position: relative;
   width: 100%;
 }
+
 .card .topo {
   height: 100px;
   background: #151861;
@@ -122,6 +126,7 @@ section {
   color: #000000;
   margin-top: 175px;
 }
+
 .card p {
   font-family: 'Poppins';
   font-style: normal;
@@ -131,7 +136,7 @@ section {
   text-align: center;
   letter-spacing: -0.015em;
   color: rgba(0, 0, 0, 0.8);
-width: 500px;
+  width: 500px;
   margin-top: 30px;
 }
 
@@ -144,4 +149,104 @@ width: 500px;
 .card .midia-links .cicle {
   width: 50px;
   height: 50px;
+}
+
+/********** pilar ***********/
+.pilar {
+  width: 100%;
+  background: rgba(21, 24, 97, 0.95);
+  border-radius: 0px 150px;
+}
+
+.pilar-title h2 {
+  margin-top: 100px;
+  color: #f8f8f8;
+}
+
+.pilar-title p {
+  color: #f8f8f8;
+  margin-bottom: 80px;
+}
+
+.line-title {
+  background: #000000;
+  border: 3px solid #f8f8f8;
+}
+
+.pilares-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1000px;
+  height: 1200px;
+}
+
+.pilares-cards .pilar-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.pilares-cards .pilar-card img {
+  padding-inline: 16px;
+}
+
+.pilares-cards .pilar-card .about {
+  width: 746px;
+  height: 145px;
+  color: #f8f8f8;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  font-family: 'Poppins';
+  font-style: normal;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.pilares-cards .pilar-card .about h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.pilares-cards .pilar-card .about .subTitle {
+  font-size: 18px;
+}
+
+.pilares-cards .pilar-card .about p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/********** historia ***********/
+.historia {
+  height: 1355px;
+  display: flex;
+  flex-direction: column;
+}
+
+.historia p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.history .intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history .intro img {
+  width: 655px;
+  height: 534px;
 }

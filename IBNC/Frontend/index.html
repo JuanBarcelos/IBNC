@@ -1,438 +1,453 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slide.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     <title>IBNC-Mesquita</title>
   </head>
   <body>
     <header>
-      <nav>
-        <img src="./img/logo.svg" alt="logo da igreja" />
-        <ul>
-          <li>
-            <a href="#">Igreja</a>
-            <ul>
-              <li><a href="./pages/sobre/sobre.html">Sobre nos</a></li>
-              <li><a href="./pages/lideres/lideres.html">Nossos Lideres</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="./pages/Ministerios/ministerios.html">Ministerios</a>
-          </li>
-          <li>
-            <a href="./pages/AoVivo/live.html">Ao Vivo</a>
-          </li>
-          <li>
-            <a href="#">Podcast</a>
-          </li>
-          <li>
-            <a href="./pages/Evento/index.html">Eventos</a>
-          </li>
-          <li>
-            <a href="#">Conteudos</a>
-            <ul>
-              <li><a href="./pages/Blog/index.html">Blog</a></li>
-              <li><a href="#">IBNC News</a></li>
-              <li><a href="#">EStudos IBNC</a></li>
-              <li><a href="#">Pedido de Oracao</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Contato</a>
-          </li>
-        </ul>
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="./img/Logo.png" alt="">
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">A Igreja</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Ministérios</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Ao Vivo</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Podcast</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Eventos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Conteudos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+          </ul>
+        </div>
 
         <div class="mobile-menu-icon">
           <button onclick="menuShow()">
-            <img class="icon" src="img/Menu.svg" alt="" />
+            <img class="icon" src="./img/menu_white_36dp.svg" alt="" />
           </button>
         </div>
       </nav>
-
       <div class="mobile-menu">
         <ul>
-          <li><a href="./pages/sobre/sobre.html">Sobre nos</a></li>
-          <li><a href="./pages/lideres/lideres.html">Nossos Lideres</a></li>
-          <li>
-            <a href="#">Igreja</a>
-          </li>
-          <li>
-            <a href="./pages/Ministerios/ministerios.html">Ministerios</a>
-          </li>
-          <li>
-            <a href="./pages/AoVivo/live.html">Ao Vivo</a>
-          </li>
-          <li>
-            <a href="#">Podcast</a>
-          </li>
-          <li>
-            <a href="#">Eventos</a>
-          </li>
-          <li>
-            <a href="#">Conteudos</a>
-          </li>
-          <li>
-            <a href="#">Contato</a>
-          </li>
-          <li><a href="./pages/Blog/index.html">Blog</a></li>
-          <li><a href="#">IBNC News</a></li>
-          <li><a href="#">Estudos IBNC</a></li>
-          <li><a href="#">Pedido de Oracao</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">A Igreja</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Ministérios</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Ao Vivo</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Podcast</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Eventos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Conteudos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
         </ul>
       </div>
     </header>
 
-    <section class="hero">
-      <div class="title">
-        <h1>Sejam Bem-vindos</h1>
-        <h2>Somas chamados para abencoar</h2>
+    <main>
+      <div class="hero">
+        <img src="./img/BANNERHOME.png" alt="" />
       </div>
-    </section>
 
-    <section class="social-midia">
-      <img
-        src="./img/socialMedia.svg"
-        alt="celular com imagen das redes sociais"
-      />
-      <div class="info-midia">
-        <h1>Junte-se a nos!</h1>
-        <p>
-          Acompanhe todas as novidades da nossa igreja. Clique nos links abaixo
-          e não perca nada!
-        </p>
-        <div class="midia-links">
-          <div class="cicle">
-            <a href="https://anchor.fm/ibncmesquita" target="_blank">
-              <img src="./img/Spotify.svg" alt="logo do spotify" />
-            </a>
+      <section class="church">
+        <div class="warper social">
+          <div class="img-social">
+            <img
+              src="./img/socialMedia.svg"
+              alt="celular com imagen das redes sociais"
+            />
           </div>
-          <div class="cicle">
+          <div class="about-social">
+            <h1 class="text">Junte-se a nos!</h1>
+            <p>
+              Acompanhe todas as novidades da nossa igreja. Clique nos links
+              abaixo e não perca nada!
+            </p>
+            <div class="midia-links">
+              <a href="https://anchor.fm/ibncmesquita" target="_blank">
+                <img
+                  class="img-link"
+                  src="./img/Spotify.svg"
+                  alt="logo do spotify"
+                />
+              </a>
+
+              <a
+                href="https://www.youtube.com/channel/UC2xjSN--LCWQGL4LCadhTDw"
+                target="_blank"
+              >
+                <img
+                  class="img-link"
+                  src="./img/YouTube.svg"
+                  alt="logo do youtube"
+                />
+              </a>
+
+              <a href="https://www.facebook.com/ibncmesquita/" target="_blank">
+                <img
+                  class="img-link"
+                  src="./img/Facebook.svg"
+                  alt="logo do facebook"
+                />
+              </a>
+
+              <a href="http://instagram.com/ibncmesquita" target="_blank">
+                <img
+                  class="img-link"
+                  src="./img/Instagram.svg"
+                  alt="logo do instagram"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="warper">
+          <div class="about-pastor">
+            <div class="text-pastor">
+              <h1>Apresentação do Pastor</h1>
+              <p>
+                nosso pastor presidente é formado em Administração de empresas,
+                Comunicação Social com ênfase em Jornalismo, e Teologia pela
+                FATEP, instituição pela qual também é pós graduado em Novo
+                Testamento...
+              </p>
+              <a href="#">Saiba mais</a>
+            </div>
+            <img class="img-pastor" src="./img/NOSSOPASTOR.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="warper">
+          <h1 class="title">Blog</h1>
+          <div class="container swiper">
+            <div class="slide-container">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BLOGSOBRE .png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <img src="./img/BLOGAUTOR.png" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Alex Silva</h3>
+                      <h4 class="job">Pastor Presidente</h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BLOGSOBRE .png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <img src="./img/BLOGAUTOR.png" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Alex Silva</h3>
+                      <h4 class="job">Pastor Presidente</h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BLOGSOBRE .png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <img src="./img/BLOGAUTOR.png" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Alex Silva</h3>
+                      <h4 class="job">Pastor Presidente</h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BLOGSOBRE .png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <img src="./img/BLOGAUTOR.png" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Alex Silva</h3>
+                      <h4 class="job">Pastor Presidente</h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BLOGSOBRE .png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <img src="./img/BLOGAUTOR.png" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Alex Silva</h3>
+                      <h4 class="job">Pastor Presidente</h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BLOGSOBRE .png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <img src="./img/BLOGAUTOR.png" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Alex Silva</h3>
+                      <h4 class="job">Pastor Presidente</h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="church">
+        <div class="warper">
+          <div class="about-church">
+            <img src="./img/APRESENTAÇÃOIGREJA.png" alt="" />
+            <div class="text-pastor">
+              <h1>Apresentação da Igreja</h1>
+              <p>
+                Nossa história começa em dezoito de setembro de dois mil e sete.
+                A então congregação Central de Adoradores, filial da Primeira
+                Igreja Batista em Pavuna através de seu ...
+              </p>
+              <a href="#">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="warper">
+          <h1 class="title">Eventos</h1>
+          <div class="container swiper">
+            <div class="slide-container">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BANNEREVENTO.png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <div class="name-job">
+                      <h3 class="date">02/02/2023</h3>
+                      <h4 class="address">
+                        Av. Gov. Celso Peçanha, 489 - Centro Mesquita, RJ
+                      </h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BANNEREVENTO.png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <div class="name-job">
+                      <h3 class="date">02/02/2023</h3>
+                      <h4 class="address">
+                        Av. Gov. Celso Peçanha, 489 - Centro Mesquita, RJ
+                      </h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BANNEREVENTO.png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <div class="name-job">
+                      <h3 class="date">02/02/2023</h3>
+                      <h4 class="address">
+                        Av. Gov. Celso Peçanha, 489 - Centro Mesquita, RJ
+                      </h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BANNEREVENTO.png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <div class="name-job">
+                      <h3 class="date">02/02/2023</h3>
+                      <h4 class="address">
+                        Av. Gov. Celso Peçanha, 489 - Centro Mesquita, RJ
+                      </h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BANNEREVENTO.png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <div class="name-job">
+                      <h3 class="date">02/02/2023</h3>
+                      <h4 class="address">
+                        Av. Gov. Celso Peçanha, 489 - Centro Mesquita, RJ
+                      </h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="./img/BANNEREVENTO.png" alt="" />
+                  </div>
+                  <div class="profile-details">
+                    <div class="name-job">
+                      <h3 class="date">02/02/2023</h3>
+                      <h4 class="address">
+                        Av. Gov. Celso Peçanha, 489 - Centro Mesquita, RJ
+                      </h4>
+                      <a href="#" class="link">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="warper contato">
+          <h1>Contato</h1>
+          <div class="about-contato">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.6324686958437!2d-43.42700558453138!3d-22.779016939052305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996693404837af%3A0x68428a733b3b95b4!2sIGREJA%20BATISTA%20NOVA%20CENTRAL%20EM%20MESQUITA!5e0!3m2!1spt-BR!2sbr!4v1674002608499!5m2!1spt-BR!2sbr"
+              width="45%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="form">
+              <input type="text" placeholder="Nome: " />
+              <input type="email" placeholder="Email: " />
+              <input type="tel" placeholder="Telefone: " />
+              <input type="text" placeholder="Assunto: " />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Menssagem: "
+              ></textarea>
+              <a href="#">Enviar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="warper">
+        <div class="about-footer">
+          <h2>Igreja Batista Nova Central em Mesquita</h2>
+          <p>
+            Nossa história não termina aqui pois continua sendo escrita,
+            portanto, podemos afirmar que nosso fim será naquele grande dia, o
+            Dia do Arrebatamento, quando Cristo, que é O Senhor dessa história,
+            voltará para nos buscar a sua igreja afim de morarmos com ele na
+            Nova Jerusalém.
+          </p>
+          <h2>Nosso Endereço</h2>
+          <p>Av. Gov. Celso Peçanha, 489 - Centro Mesquita, RJ</p>
+
+          <div class="midia-links">
+            <a href="https://anchor.fm/ibncmesquita" target="_blank">
+              <img
+                class="img-link"
+                src="./img/Spotify.svg"
+                alt="logo do spotify"
+              />
+            </a>
+
             <a
               href="https://www.youtube.com/channel/UC2xjSN--LCWQGL4LCadhTDw"
               target="_blank"
             >
-              <img src="./img/YouTube.svg" alt="logo do youtube" />
+              <img
+                class="img-link"
+                src="./img/YouTube.svg"
+                alt="logo do youtube"
+              />
             </a>
-          </div>
 
-          <div class="cicle">
             <a href="https://www.facebook.com/ibncmesquita/" target="_blank">
-              <img src="./img/Facebook.svg" alt="logo do facebook" />
+              <img
+                class="img-link"
+                src="./img/Facebook.svg"
+                alt="logo do facebook"
+              />
             </a>
-          </div>
 
-          <div class="cicle">
             <a href="http://instagram.com/ibncmesquita" target="_blank">
-              <img src="./img/Instagram.svg" alt="logo do instagram" />
+              <img
+                class="img-link"
+                src="./img/Instagram.svg"
+                alt="logo do instagram"
+              />
             </a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="blog">
-      <div class="blog-title">
-        <h2>Blog</h2>
-        <div class="line"></div>
-        <a href="#">Todos os artigos</a>
-      </div>
-
-      <div class="artigos">
-        <div class="artigo">
-          <img src="./img/capa-blog.svg" alt="" />
-          <p class="date">Novembro 31,2022</p>
-          <a href="">Sed ut perspiciatis</a>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur....</p>
-        </div>
-
-        <div class="artigo">
-          <img src="./img/capa-blog.svg" alt="" />
-          <p class="date">Novembro 31,2022</p>
-          <a href="">Sed ut perspiciatis</a>
           <p>
-            Nemo enim ipsam voluptatem quia voluptas sit aspernaturNemo enim
-            ipsam voluptatem quia voluptas sit aspernaturNemo enim ipsam
-            voluptatem quia voluptas sit aspernatur....
+            Copyright &copy; 2023 Igreja Batista Nova Central em Mesquita.
+            Criado por Juan Barcelos.
           </p>
         </div>
 
-        <div class="artigo">
-          <img src="./img/capa-blog.svg" alt="" />
-          <p class="date">Novembro 31,2022</p>
-          <a href="">Sed ut perspiciatis</a>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur....</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="historia">
-      <img src="./img/Sobre nos.svg" alt="" />
-      <div class="info-historia">
-        <h2>Conheça a nossa historia</h2>
-        <p>
-          Em trinta de abril de dois mil e dezesseis a então congregação é
-          organizada em igreja, em uma noite onde seus membros passaram por uma
-          sabatina afim de confirmar que seus ensinamentos ....
-        </p>
-        <a href="#">Saiba mais</a>
-      </div>
-    </section>
-
-    <section class="eventos">
-      <div class="blog-title">
-        <h2>Eventos</h2>
-        <div class="line"></div>
-        <a href="#">Todos os eventos</a>
-      </div>
-
-      <div class="evento-list">
-        <div class="evento">
-          <div class="capa">
-            <img class="capa-evento" src="./img/capa-blog.svg" alt="" />
-
-            <div class="date-evento">
-              <div class="circulo">
-                <p>12</p>
-              </div>
-              <p>MAI</p>
-            </div>
-          </div>
-
-          <div class="description">
-            <h2>Sed ut perspiciatis</h2>
-
-            <div class="info-evento">
-              <img src="./img/Location.svg" alt="" />
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur....Nemo
-                enim ipsam voluptatem quia voluptas sit aspernatur....
-              </p>
-            </div>
-
-            <div class="info-evento">
-              <img src="./img/Calendar.svg" alt="" />
-              <p>12/05/2020 às 15:00</p>
-            </div>
-
-            <button>Veja Mais</button>
-          </div>
+        <div class="img-footer">
+          <img src="./img/logo.png" alt="" />
         </div>
 
-        <div class="evento">
-          <div class="capa">
-            <img class="capa-evento" src="./img/capa-blog.svg" alt="" />
-
-            <div class="date-evento">
-              <div class="circulo">
-                <p>12</p>
-              </div>
-              <p>MAI</p>
-            </div>
-          </div>
-
-          <div class="description">
-            <h2>Sed ut perspiciatis</h2>
-
-            <div class="info-evento">
-              <img src="./img/Location.svg" alt="" />
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur....Nemo
-                enim ipsam voluptatem quia voluptas sit aspernatur....
-              </p>
-            </div>
-
-            <div class="info-evento">
-              <img src="./img/Calendar.svg" alt="" />
-              <p>12/05/2020 às 15:00</p>
-            </div>
-
-            <button>Veja Mais</button>
-          </div>
-        </div>
-
-        <div class="evento">
-          <div class="capa">
-            <img class="capa-evento" src="./img/capa-blog.svg" alt="" />
-
-            <div class="date-evento">
-              <div class="circulo">
-                <p>12</p>
-              </div>
-              <p>MAI</p>
-            </div>
-          </div>
-
-          <div class="description">
-            <h2>Sed ut perspiciatis</h2>
-
-            <div class="info-evento">
-              <img src="./img/Location.svg" alt="" />
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur....Nemo
-                enim ipsam voluptatem quia voluptas sit aspernatur....
-              </p>
-            </div>
-
-            <div class="info-evento">
-              <img src="./img/Calendar.svg" alt="" />
-              <p>12/05/2020 às 15:00</p>
-            </div>
-
-            <button>Veja Mais</button>
-          </div>
-        </div>
-
-        <div class="evento">
-          <div class="capa">
-            <img class="capa-evento" src="./img/capa-blog.svg" alt="" />
-
-            <div class="date-evento">
-              <div class="circulo">
-                <p>12</p>
-              </div>
-              <p>MAI</p>
-            </div>
-          </div>
-
-          <div class="description">
-            <h2>Sed ut perspiciatis</h2>
-
-            <div class="info-evento">
-              <img src="./img/Location.svg" alt="" />
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur....Nemo
-                enim ipsam voluptatem quia voluptas sit aspernatur....
-              </p>
-            </div>
-
-            <div class="info-evento">
-              <img src="./img/Calendar.svg" alt="" />
-              <p>12/05/2020 às 15:00</p>
-            </div>
-
-            <button>Veja Mais</button>
-          </div>
-        </div>
-
-        <div class="evento">
-          <div class="capa">
-            <img class="capa-evento" src="./img/capa-blog.svg" alt="" />
-
-            <div class="date-evento">
-              <div class="circulo">
-                <p>12</p>
-              </div>
-              <p>MAI</p>
-            </div>
-          </div>
-
-          <div class="description">
-            <h2>Sed ut perspiciatis</h2>
-
-            <div class="info-evento">
-              <img src="./img/Location.svg" alt="" />
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur....Nemo
-                enim ipsam voluptatem quia voluptas sit aspernatur....
-              </p>
-            </div>
-
-            <div class="info-evento">
-              <img src="./img/Calendar.svg" alt="" />
-              <p>12/05/2020 às 15:00</p>
-            </div>
-
-            <button>Veja Mais</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contato">
-      <div class="blog-title">
-        <h2>Entre em Contato</h2>
-        <div class="line"></div>
-      </div>
-
-      <div class="infos">
-        <div class="info-contato">
-          <div class="info">
-            <img src="./img/Address.svg" alt="" />
-            <p>Av. Gov. Celso Peçanha, 489 - Centro, Mesquita - RJ</p>
-          </div>
-
-          <div class="info">
-            <img src="./img/Phone.svg" alt="" />
-            <p>(00) 0000-0000/(00)00000-0000</p>
-          </div>
-
-          <div class="info">
-            <img src="./img/Envelope.svg" alt="" />
-            <p>enimipsam@voluptatem</p>
-          </div>
-        </div>
-
-        <form action="">
-          <div class="inputs">
-            <input type="text" placeholder="Nome" />
-          </div>
-
-          <div class="inputs">
-            <input type="email" placeholder="Email" />
-          </div>
-
-          <div class="tel-assunto">
-            <div class="tel">
-              <input type="tel" placeholder="Telefone" />
-            </div>
-
-            <div>
-              <input type="text" placeholder="Assunto" />
-            </div>
-          </div>
-
-          <textarea></textarea>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <img class="footer-logo" src="./img/logo-footer.svg" alt="" />
-
-      <p>© Juan Barcelos, BarcelosDev . 2022. We love our users!</p>
-
-      <div class="midia-links">
-        <div class="cicle">
-          <a href="https://anchor.fm/ibncmesquita" target="_blank">
-            <img src="./img/Spotify.svg" alt="logo do spotify" />
-          </a>
-        </div>
-        <div class="cicle">
-          <a
-            href="https://www.youtube.com/channel/UC2xjSN--LCWQGL4LCadhTDw"
-            target="_blank"
-          >
-            <img src="./img/YouTube.svg" alt="logo do youtube" />
-          </a>
-        </div>
-
-        <div class="cicle">
-          <a href="https://www.facebook.com/ibncmesquita/" target="_blank">
-            <img src="./img/Facebook.svg" alt="logo do facebook" />
-          </a>
-        </div>
-
-        <div class="cicle">
-          <a href="http://instagram.com/ibncmesquita" target="_blank">
-            <img src="./img/Instagram.svg" alt="logo do instagram" />
-          </a>
-        </div>
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>

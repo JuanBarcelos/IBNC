@@ -10,19 +10,7 @@
   width: 100%;
   max-width: 100vw;
   height: auto;
-}
-
-section {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 5rem;
-}
-
-.warper {
-  width: 312px;
-  height: 100%;
 }
 
 /* social */
@@ -148,6 +136,7 @@ section {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  border: none;
 }
 .form > textarea {
   width: 100%;
@@ -211,6 +200,13 @@ footer .warper > .img-footer > img {
   margin-bottom: 1rem;
 }
 
+.about-footer > .copy{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-align: justify
+}
+
 /* media */
 @media all and (min-width: 768px) {
   .warper {
@@ -218,7 +214,7 @@ footer .warper > .img-footer > img {
   }
 
   .hero {
-    min-height: 45vh;
+    min-height: 25vh;
   }
 }
 
@@ -234,7 +230,8 @@ footer .warper > .img-footer > img {
   .hero {
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    height: auto;
+    margin-bottom: 2rem;
   }
   .about-pastor {
     margin-top: 6.4rem;

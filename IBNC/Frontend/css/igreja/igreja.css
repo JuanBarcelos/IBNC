@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.hero > img {
+  width: 100%;
+  max-width: 100vw;
+  height: 300px;
+  object-fit: fill;
+}
+
+.container > h1 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Sora', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 119%;
+}
+
+.img-history {
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+}
+
+.about-history .text > p,
+.container > p {
+  text-align: justify;
+  margin-top: 1.6rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.05em;
+}
+
+/* pilares */
+
+.pilar {
+  background-color: #151861;
+  color: aliceblue;
+}
+
+.container > .card {
+  width: 100%;
+  min-width: 28.5rem;
+  height: auto;
+}
+
+.card > img {
+  width: 100%;
+  min-width: 285px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 1.6rem;
+}
+
+.pilar-text > h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+}
+
+.pilar-text > h3 {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 30px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.pilar-text > p {
+  text-align: justify;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+/* pastores */
+
+.cards-lider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-lider {
+  width: 285px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #151861;
+  border-radius: 20px;
+  color: aliceblue;
+  margin-bottom: 3.2rem;
+}
+
+.card-lider > .text {
+  text-align: justify;
+  margin-top: 1.6rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.05em;
+  display: none;
+}
+
+.card-lider > img {
+  border-radius: 100%;
+  margin-top: 1.6rem;
+  border: 2px solid aliceblue;
+}
+
+.card-lider > h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.card-lider > .btn-pastores {
+  background-color: #18a0fb;
+  width: 200px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 20px;
+}
+.btn-pastores > a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  line-height: 162%;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0.6rem;
+}
+
+.links > a {
+  width: 32.24px;
+  height: 100%;
+
+  text-decoration: none;
+}
+
+.links a > .img-link {
+  width: 45px;
+  height: 100%;
+}
+
+/*footer */
+footer {
+  background-color: #151861;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-footer > h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 119%;
+  margin-top: 2rem;
+}
+.about-footer > p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 162%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-weight: 100;
+}
+
+.about-footer > .copy {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-align: justify;
+}
+
+footer .warper > .img-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .warper > .img-footer > img {
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* media */
+@media all and (min-width: 768px) {
+  .warper {
+    width: 630px;
+  }
+
+  .cards-lider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .warper {
+    width: 1216px;
+  }
+
+  .hero > img {
+    height: 500px;
+    object-fit: none;
+  }
+
+  .container > h1 {
+    font-size: 2.4rem;
+  }
+
+  .pilar {
+    border-radius: 150px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cards > .card {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+  .card > img {
+    max-width: 450px;
+  }
+
+  .card-lider {
+    width: 585px;
+    height: 1439px;
+  }
+
+  .card-lider > .btn-pastores {
+    display: none;
+  }
+
+  .card-lider > .text {
+    text-align: justify;
+    margin-top: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.05em;
+    display: block;
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  footer > .warper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about-footer {
+    width: 700px;
+  }
+  .about-footer > h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 119%;
+    margin-top: 2rem;
+  }
+  .about-footer > p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    line-height: 162%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-footer > .links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0.6rem;
+    gap: 5rem;
+  }
+}

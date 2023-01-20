@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 50px;
     height: auto;
+    border-radius: 100%;
 }
 
 .logo h1 {

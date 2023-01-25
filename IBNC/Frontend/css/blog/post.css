@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+.hero-img > img {
+  margin-top: 1.6rem;
+  width: 100%;
+  max-width: 590px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text > .text-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 30px;
+  color: #18a0fb;
+}
+
+.text > h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+}
+
+.text > p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 1.6rem;
+}
+
+.autor {
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.autor > img {
+  border-radius: 100%;
+}
+
+.text-autor {
+  margin-left: 1rem;
+}
+
+.text-autor > .name {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 30px;
+  color: black;
+  padding-bottom: 0.5rem;
+}
+
+.text-autor > .cargo {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.post > h1 {
+  font-family: 'Sora', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.post-text > h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.3;
+}
+
+.post-text > p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* media */
+@media all and (min-width: 768px) {
+  .warper {
+    width: 630px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .warper {
+    width: 1216px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .hero-img > img {
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 590px;
+    height: auto;
+    border-radius: 10px;
+  }
+}

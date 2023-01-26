@@ -13,7 +13,7 @@
   border-radius: 8px;
 }
 .card .image-box {
-  height: 200px;
+  height: auto;
 }
 .card .image-box img {
   width: 100%;

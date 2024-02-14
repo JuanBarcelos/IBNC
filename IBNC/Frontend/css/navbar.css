@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'navfont';
+    src: url('../fonts/philosopher/Philosopher-Regular.ttf' ) format('truetype') ;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 1rem 4rem;
-    background-color: #151861;
+    background-color: #0e1d7a;
 }
 
 
@@ -38,6 +43,7 @@
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
+    font: normal 1.15rem 'navfont';
 }
 
 .login-button button {
@@ -60,7 +66,7 @@
 
 .mobile-menu {
     display: none;
-    background-color: #151861;
+    background-color: #0e1d7a;
 }
 
 @media screen and (max-width: 768px) {

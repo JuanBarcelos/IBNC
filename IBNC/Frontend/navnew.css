@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'navfont';
     src: url('../fonts/philosopher/Philosopher-Regular.ttf' ) format('truetype') ;
+
+}
+@font-face {
+    font-family: 'nexa';
+    src: url('../fonts/nexa/Nexa-ExtraLight.ttf') format('truetype');
 }
 
 body{
@@ -9,7 +14,7 @@ body{
 }
 
 #navpage{
-    background-image: linear-gradient(to right,#92441738, #92441738 ) , url('img/f7d3380ab13c463d6d8734e23c232102.png') ;
+    background-image: linear-gradient(to right,#92441738, #92441738 ) , url('../img/fotohome.png') ;
    
     width: 100%;
     height: 900px;
@@ -30,7 +35,7 @@ body{
     text-decoration: none;
     padding-right: 50px;
     margin-right: 40px;
-     
+     white-space: nowrap;
     font: italic 20px 'navfont';
 }
 #navpage .dropdown-menu a{
@@ -57,7 +62,7 @@ body{
     display: none;
     columns: 1;
     background-color: rgba(255, 145, 0, 0.815);
-    padding-top: 15px;
+    
     width: 200px;
     height: auto;
     border-radius: 5px;
@@ -69,7 +74,8 @@ body{
   
 .dropdown-menu a{
     display: block;
-    padding-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
     color: white;
 }
     
@@ -81,14 +87,59 @@ body{
     display: block;
 }
 
-@keyframes navpages {
-    from{
-
-    }
-    to{
-
-    }
+.introducao{
+    background-image: linear-gradient(to right, #502f1b, #e69307) ;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    
 }
+.text-in{
+    text-align: justify;
+    color: white;
+    
+    margin-top: 2%;
+    margin-left: 50px;
+}
+.text-in h1{
+    font: normal 60px 'navfont';
+    
+    
+}
+.text-in p{
+    font: normal 20px 'nexa';
+    margin-bottom: 50px;
+}
+.text-in a{
+    color: white;
+    text-decoration: none;
+    font: normal 20px 'nexa';
+    background-color: transparent;
+    box-shadow: 0px 0px 6px 4px white;
+    border-radius: 10px;
+    padding: 10px;
+   
+    margin-left: 50px;
+}
+.text-in a:hover{
+    font-size: 30px;
+}
+    
+
+
+.introducao img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 30%;
+    margin-bottom: 70px;
+
+}
+
+
+
 
     
 

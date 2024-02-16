@@ -30,16 +30,20 @@ body{
     text-decoration: none;
     padding-right: 50px;
     margin-right: 40px;
-    
+     
     font: italic 20px 'navfont';
 }
 #navpage .dropdown-menu a{
-    color: black;
-    
+    color: white;
+    text-align: center; 
+    padding-left: 40px;
 }
-#navpage a:hover{
-    color: orange;
-}  
+#navpage .dropdown > a:hover{
+    color: rgb(255, 136, 0);
+} 
+#navpage .dropdown-menu a:hover{
+    color: black;
+} 
 
 .ftinicio {
     display: flex;
@@ -51,25 +55,22 @@ body{
 .dropdown-menu{
     position: absolute;
     display: none;
-    columns: 2;
-    background-color: white;
-    
-    width: 270px;
+    columns: 1;
+    background-color: rgba(255, 145, 0, 0.815);
+    padding-top: 15px;
+    width: 200px;
+    height: auto;
     border-radius: 5px;
+    box-shadow: 1px 1px 20px 12px black;
+    
+    
+    
 }
   
-    
-
-    
-    
-    
-   
-    
-
 .dropdown-menu a{
     display: block;
-    padding-top: 10px;
-    color: black;
+    padding-top: 20px;
+    color: white;
 }
     
     
@@ -79,6 +80,23 @@ body{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+
+@keyframes navpages {
+    from{
+
+    }
+    to{
+
+    }
+}
+
+    
+
+    
+    
+    
+   
+    
 
 
 

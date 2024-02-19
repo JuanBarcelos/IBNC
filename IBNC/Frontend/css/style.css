@@ -72,7 +72,11 @@
   width: 100%;
   max-width: 500px;
   height: auto;
+<<<<<<< Updated upstream
   border-radius: 15px;
+=======
+  border-radius: 10px;
+>>>>>>> Stashed changes
 }
 
 .text-pastor > a {
